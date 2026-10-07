@@ -12,4 +12,4 @@ YoE= st.number_input('Years of Experience', min_value=0.0, max_value=1.0, step=0
 
 if st.button("Predict Salary"):
     prediction= model.predict([[YoE]])
-     st.success(prediction)
+  st.success(prediction)
